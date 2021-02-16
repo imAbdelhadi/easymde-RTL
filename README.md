@@ -59,8 +59,8 @@ npm install easymde --save
 Via the *UNPKG* CDN:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/easymde/dist/easymde.min.css">
-<script src="https://unpkg.com/easymde/dist/easymde.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/easymde-rtl@latest/dist/easymde-rtl.min.css">
+<script src="https://cdn.jsdelivr.net/npm/easymde-rtl@latest/dist/easymde-rtl.min.js"></script>
 ```
 
 
@@ -112,6 +112,19 @@ Use EasyMDE.value(val) to set the content of the editor:
 <script>
 easyMDE.value('New input for **EasyMDE**');
 </script>
+```
+
+## Customize  Status bar Language
+you can customise your status bar to any language by override css classes file like this:
+```CSS
+.editor-statusbar .words:before {
+    content: 'كلمة: ';
+}
+```
+```CSS
+.editor-statusbar .lines:before {
+	content: 'خط: ';
+}
 ```
 
 
