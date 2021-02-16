@@ -51,7 +51,7 @@ The editor is entirely customizable, from theming to toolbar buttons and javascr
 Via [npm](https://www.npmjs.com/package/easymde):
 
 ```
-npm install easymde --save
+npm install easymde-rtl --save
 ```
 
 Via the *UNPKG* CDN:
