@@ -1,5 +1,4 @@
-# generated files
-dist/
+.DS_Store
 
 # NPM files
 node_modules/

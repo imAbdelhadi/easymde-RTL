@@ -1,4 +1,6 @@
-# EasyMDE - Markdown Editor
+# EasyMDE - Markdown Editor (RTL)
+
+Full RTL version of [**EasyMDE**](https://github.com/Ionaru/easy-markdown-editor) Markdown Editor for [Arabic](https://en.wikipedia.org/wiki/Arabic_script "Arabic script"), [Persian](https://en.wikipedia.org/wiki/Persian_language "Persian language"), and [Urdu](https://en.wikipedia.org/wiki/Urdu_language "Urdu language") languages.
 
 [![npm version](https://img.shields.io/npm/v/easymde.svg?style=for-the-badge)](https://www.npmjs.com/package/easymde)
 [![npm version](https://img.shields.io/npm/v/easymde/next.svg?style=for-the-badge)](https://www.npmjs.com/package/easymde/v/next)

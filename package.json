@@ -1,7 +1,7 @@
 {
     "name": "easymde",
     "version": "2.14.0",
-    "description": "A simple, beautiful, and embeddable JavaScript Markdown editor that easy to use. Features include autosaving and spell checking.",
+    "description": "A simple, beautiful, and embeddable JavaScript Markdown editor that easy to use. Features include autosaving and spell checking + RTL",
     "files": [
         "dist/**/*",
         "src/**/*",
@@ -12,7 +12,8 @@
         "markdown",
         "editor",
         "javascript",
-        "fontawesome"
+        "fontawesome",
+        "rtl"
     ],
     "main": "src/js/easymde.js",
     "types": "types/easymde.d.ts",

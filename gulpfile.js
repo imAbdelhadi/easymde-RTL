@@ -36,7 +36,7 @@ function lint() {
 
 function scripts() {
     return browserify({entries: './src/js/easymde.js', standalone: 'EasyMDE'}).bundle()
-        .pipe(source('easymde.min.js'))
+        .pipe(source('easymde-rtl.min.js'))
         .pipe(buffer())
         .pipe(terser())
         .pipe(header(banner, {pkg: pkg}))
@@ -47,7 +47,7 @@ function styles() {
     return gulp.src(css_files)
         .pipe(concat('easymde.css'))
         .pipe(cleanCSS())
-        .pipe(rename('easymde.min.css'))
+        .pipe(rename('easymde-rtl.min.css'))
         .pipe(buffer())
         .pipe(header(banner, {pkg: pkg}))
         .pipe(gulp.dest('./dist/'));
