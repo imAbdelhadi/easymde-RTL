@@ -1,5 +1,5 @@
 /**
- * easymde v2.14.0
+ * easymde-rtl v2.14.0
  * Copyright Jeroen Akkerman
  * @link https://github.com/ionaru/easy-markdown-editor
  * @license MIT
